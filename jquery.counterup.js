@@ -47,7 +47,7 @@
                 // Preserve commas if input had commas
                 if (isComma) {
                     while (/(\d+)(\d{3})/.test(newNum.toString())) {
-                        newNum = newNum.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
+                        newNum = newNum.toString().replace(/(\d+)(\d{3})/, '$1'+' '+'$2');
                     }
                 }
 
